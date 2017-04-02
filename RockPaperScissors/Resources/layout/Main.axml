@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReady"
+        android:layout_weight="1"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutButtons"
+        android:layout_weight="1"
+        android:weightSum="3">
+        <Button
+            android:text="@string/Rock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonRock"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:text="@string/Scissors"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonScissors"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:text="@string/Paper"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonPaper"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewResult"
+        android:layout_weight="1"
+        android:textSize="25dp" />
+</LinearLayout>

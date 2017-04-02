@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Rock">グー</string>
+  <string name="Scissors">チョキ</string>
+  <string name="Paper">パー</string>
+  <string name="Win">あなたの勝ち！</string>
+  <string name="Loose">あなたの負け！</string>
+  <string name="Tie">引き分け！</string>
+  <string name="ApplicationName">RockPaperScissors</string>
+</resources>
